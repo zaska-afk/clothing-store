@@ -1,9 +1,15 @@
 import React from "react";
-import logo from "./logo.svg";
+
 import "./App.css";
 
+import HomePage from "./hompage.component";
+
 function App() {
-  return <div className="App">Hello World</div>;
+  return (
+    <div>
+      <HomePage />
+    </div>
+  );
 }
 
 export default App;
